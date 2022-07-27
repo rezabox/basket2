@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <div class="cart-container">
+    <div class="cart2">
+      <p class="cart--header">Cart</p>
+      <div class="cart--body">
+        <p>Your cart is empty</p>
+      </div>
+    </div>
+  </div>
+<nav>
+  <div class="container">
+    <img src="images/logo.svg" alt="">
+    <div class="warp">
+      <ul><li><a href="#">Collections</a></li></ul>
+      <ul><li><a href="#">Men</a></li></ul>
+      <ul><li><a href="#">Women</a></li></ul>
+      <ul><li><a href="#">About</a></li></ul>
+      <ul><li><a href="#">Contact</a></li></ul>
+    </div>
+    <div class="logo">
+      <h3>
+        <svg  xmlns="http://www.w3.org/2000/svg" class='cart' width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+      </h3>
+      <img src="images/image-avatar.png" class="avatar" alt="">
+    </div>
+ </div>
+  <div class="nav-mob">
+    <svg width="16" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M16 12v3H0v-3h16Zm0-6v3H0V6h16Zm0-6v3H0V0h16Z" fill="#69707D" fill-rule="evenodd"/></svg>
+  </div>
+</nav>
+<div class="warp2">
+  <svg class="close2" width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#69707D" fill-rule="evenodd"/></svg>
+  <ul><li><a href="#">Collections</a></li></ul>
+  <ul><li><a href="#">Men</a></li></ul>
+  <ul><li><a href="#">Women</a></li></ul>
+  <ul><li><a href="#">About</a></li></ul>
+  <ul><li><a href="#">Contact</a></li></ul>
+</div>
+ <section>
+  <div class="shows">
+    <img src="images/image-product-1.jpg" class="shows1" alt="">
+    <div class="sneker">
+      <h4>Sneaker Company</h4>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p>  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="priceV">
+        <h2 value="$125.00">125.00</h2>
+        <span>50%</span>
+      </div>
+      <del>$250.00</del>
+      <div class="btns">
+        <button class="number"><svg onclick="minus()"  width="12" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z" id="a"/></defs><use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#a"/></svg><span class="addad">1</span><svg onclick="plus()"  width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z" id="b"/></defs><use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#b"/></svg></button>
+          <button class="addCard"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="images">
+    <ul>
+      <li><img class="imgshows" src="images/image-product-2.jpg" onclick="photoChange('images/image-product-2.jpg')"  alt=""></li>
+      <li><img class="imgshows" src="images/image-product-1.jpg" onclick="photoChange('images/image-product-1.jpg')" alt=""></li>
+      <li><img class="imgshows" src="images/image-product-3.jpg" onclick="photoChange('images/image-product-3.jpg')" alt=""></li>
+      <li><img class="imgshows" src="images/image-product-4.jpg" onclick="photoChange('images/image-product-4.jpg')" alt=""></li>
+    </ul>
+  </div>
+ </section>
+ <div class="slider">
+   <div class="slider-item">
+    <div class="item active">
+      <img src="images/image-product-1.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/image-product-2.jpg" alt="">
+    </div> 
+    <div class="item">
+      <img src="images/image-product-3.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/image-product-4.jpg" alt="">
+    </div>
+  </div>
+ 
+   <div class="qty">
+     <svg class="next" width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+     <svg class="prev" width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+   </div>
+   <div class="close">
+    <svg xmlns="http://www.w3.org/2000/svg" class="close-btn" width="8" height="8" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+    </svg>
+   </div>
+ </div>
+
+  
+  
+ <script src="index.js"></script>
+</body>
+</html>
